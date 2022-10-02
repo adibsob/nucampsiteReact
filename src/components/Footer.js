@@ -1,9 +1,9 @@
-import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="site-footer">
+        <footer className='site-footer'>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
@@ -13,7 +13,7 @@ const Footer = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <Link to='/directory'>directory</Link>
+                                <Link to='/directory'>Directory</Link>
                             </li>
                             <li>
                                 <Link to='/about'>About</Link>
@@ -23,7 +23,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
-
                     <Col xs='6' sm='3' className='text-center'>
                         <h5>Social</h5>
                         <a
@@ -51,7 +50,6 @@ const Footer = () => {
                             <i className='fa fa-youtube' />
                         </a>
                     </Col>
-
                     <Col sm='4' className='text-center'>
                         <a
                             role='button'
@@ -72,7 +70,7 @@ const Footer = () => {
                 </Row>
             </Container>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;
